@@ -1,0 +1,484 @@
+/*
+theme name: my web
+theme coder : hadeer sakr
+PSD desgin : 
+frist color:#08cc7f
+second color:#062265
+
+*/ 
+*{
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+b
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*  start upper-bar  */
+.upper-bar{
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: gainsboro;
+    width: 100%;
+
+}
+.upper-bar i{
+    font-size: x-large;
+    color: gray;
+    margin-top: 10px;
+}
+.upper-bar span{
+    color: grey;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.upper-bar a{
+    font-size: 15px;
+    font-style: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    text-decoration: none;
+    margin: 15px;
+}
+.upper-bar a:hover{
+color: #5d81d4;
+}
+
+.upper-bar button{
+    background-color:#08cc7f ;
+    border-style: hidden;
+    font-size: 14px;
+    margin-top: 9px;
+    padding: 10px  15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+
+}
+
+
+/*  End upper-bar  */
+
+/*start nav-bar*/
+.nav-bar{
+    background-color: white;
+    width: 100%;
+}
+.nav-bar .brand{
+    float: left;
+    width: 40%;
+    margin-top: 15px;
+    
+}
+.nav-bar .links{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+}
+.nav-bar .links li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    position: relative;
+    
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+
+.nav-bar ul li:hover {
+    color: #08cc7f;
+    
+  }
+
+.nav-bar ul li ul.sub-nav {
+    position: absolute;
+    top: 75px;
+    padding-left: 25px;
+
+    left: 0;
+    width: 280%;
+    height: 240px;
+    background: white;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14), -1px 0px 1px rgba(0, 0, 0, 0.14);
+    visibility: hidden;
+    opacity: 0;
+    
+  }
+  
+  .nav-bar ul li ul.sub-nav li {
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  .nav-bar ul li ul.sub-nav li:hover {
+    color: #08cc7f;
+    box-shadow: 0 0;
+  }
+  
+  .nav-bar ul li:hover ul.sub-nav {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+/*end nav-bar*/
+/* start frame work */
+.clearfix{
+    clear: both;
+}
+/* end frame work */
+/* start slide*/
+.slide {
+    width: 100%;
+}
+.row .slide-img{
+   width: 60%;
+   align-self:flex-end;
+   padding-left: 15%;
+    padding-right: 0px;
+   margin-right: 0px; 
+   height: 60%;
+}
+.title h1{
+    color: #062265;
+    margin-top: 80px;
+    font-size: 60px;
+}
+.title span{
+    color: #08cc7f;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: inherit;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 30px;
+}
+
+   .subtitle button{
+    background-color:#08cc7f ;
+    border-style: hidden;
+    font-size: 20px;
+    margin-top: 9px;
+    padding: 10px  15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+
+}
+.subtitle i{
+    font-size: 40px;
+    color:#08cc7f ;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.subtitle a{
+    color: #062265;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* end slide*/
+/*start features*/
+.features{
+    padding: 50px 20px;
+    background-color: #9898982d;
+  width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.features .row{
+    padding-top: 50px;
+    text-align: center; 
+    border: #989898;
+    padding-left: 15px;
+    
+
+    
+}
+
+.features i{
+    background-color: #08cc7f;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+
+   
+}
+
+.features h3{
+    color: #062265;
+    font-size: 22px;
+}
+
+.features p{
+    color: #989898;
+    margin: 40px;
+}
+.text-center{
+    flex-wrap: wrap;
+}
+.text-center h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #062265;
+    text-align: center;
+}
+.text-center h4{
+    color: #08cc7f;
+    font-size: x-large;
+    text-align: center;
+}
+
+/*end features*/
+/*START SLID2*/
+.slide2{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.slide2 h4{
+    color: #08cc7f;
+    font-size: 30PX;
+    font-weight: 100;
+    padding-top: 30pX;
+    padding-bottom: 5pX;
+}
+.slide2 h1{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 1PX;
+    width: 60%;
+}
+.slide2 P{
+    width: 60%;
+}
+.slide2 .slide2-img{
+   
+    max-width: 10%;
+    align-self:flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40%;
+}
+.slide2 .subtitle i{
+    font-size: 30px;
+    color:#08cc7f ;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.slide2 .subtitle a{
+    color: #062265;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+.slide2 .subtitle button{
+    background-color:#08cc7f ;
+    border-style: hidden;
+    font-size: 15px;
+    margin-top: 9px;
+    padding: 10px  15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;}
+/*end SLIDE 2*/
+/* start card*/
+.cards .card{
+    width: 100%;
+    margin-bottom: 50px;
+    height: 92%; 
+}
+.cards .card-title h4{
+   padding: 10px;
+}
+
+.cards .description h4{
+    color: #08cc7f;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.cards .description h1{
+    color: #062265;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 33px;
+}
+/*start progress bar*/
+
+.cards .progress-bar {
+    margin-bottom: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background: #08cc7f;
+    border: #08cc7f;
+    width: 65%;
+    animation: 2s forwards  cubic-bezier(0,0,0,0);
+}
+.cards  .card-link{
+    display: flexbox;
+    background-color:#6697c5 ;
+    border-style: hidden;
+    font-size: 25px;
+     margin-left: px;
+    padding: 15px  15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s
+    
+    
+}
+.cards  .card-link1{
+    display:flexbox ;
+    background-color: rgb(231, 227, 227) ;
+    border-style: hidden;
+    font-size: 28px;
+    margin-left: 5px;
+    padding: 12px  15px;
+    color: #4795b4;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card .title-card h5{
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 13px;
+}
+.card .title-card span{
+    font-size: 15px;
+      margin-left:5px;
+    display: inline-block;
+    color: #808080;
+}
+
+/*end progress bar*/
+/*end cards*/
+
+/*START statistic*/
+.statistic {
+    margin-bottom: 50px;
+     display:block;
+     width: 84.1%;
+     height: 180px;     
+background-image: url("graphic-hand-holding-money-plant-cropped-scaled.jpg");
+       background-repeat: no-repeat; 
+       background-size: 1200px 180px;
+     background: attachment 200px;
+    margin-left: 130px;
+    align-items: center;
+}
+.statistic .container{
+    background-color: rgba(9, 28, 71, 0.9);
+    width:102%;
+    height: 180px; 
+}
+.statistic .container .row  .stat-box{
+    text-align: center;
+    margin-top: 35px;
+    position: relative;
+    color: rgb(223, 222, 235);
+    font-weight: bolder;
+    font-size: larger;
+    border-right: rgb(88, 88, 87) solid;
+    padding: 10px;
+    position: relative;
+ 
+ 
+
+}
+.statistic .container .row p{
+    color: #808080;
+}
+/*end statistic*/
+/*start cards team*/
+.cards-team .container{
+    width: 100%;
+    margin-bottom: 50px;
+    height: 92%; 
+ 
+}
+.cards-team .containe .row-team{
+       display: inline-flex;
+}
+.cards-team .card-team{
+  border:#062265 solid 2px; 
+  margin-top: 10px; 
+  
+}
+.cards-team .description-team h4{
+    color: #08cc7f;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.cards-team .description-team h1{
+    color: #062265;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 33px;
+}
+
+.cards-team .card-team .name-card h1{
+    color: #062265;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+.cards-team .card-team .name-card h6{
+    color: #696969;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+.cards-team .card-team  .list-unstyled li{
+    display: inline-block;
+      font-size: 20px;
+      text-align: center;
+      
+      
+}
+.cards-team .card-team  .list-unstyled a{
+    color: #062265;
+    text-align: center;
+    
+}
+.cards-team .card-team  .list-unstyled a i{
+    text-align: center;
+    margin: 10px 30px;
+}
+/*end cards team*/
